@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 .abc{
     height: 500px;
@@ -7,8 +9,8 @@ body{
     background: #44d9f3;
     display: flex;
     flex-direction: row;
-    /*justify-content: center;*/
-    /*align-items: center;*/
+    justify-content: center;
+    align-items: center;
 }
 .colum1{
     height: 100%;
@@ -25,7 +27,7 @@ body{
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-
+    /**/
     display: flex;
 
 }
