@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.general{
+    height: 100vh;
+    width: 650px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+.widgets{
+    width: 100%;
+    height: 200px;
+    background: #346ede;
+
+}
+.widgets-box{
+    display: flex;
+    height: 200px;
+    background: #ffffff;
+    column-gap: 10px;
+    padding: 10px 0;
+
+}
+.widget{
+    width: 34%;
+    height: 100%;
+    background: #084ad7;
+
+
+
+}
+.contacts{
+    height: 500px;
+    background: #346ede;
+}
+.txt {
+    color: #ffffff;
+    font-family: "Times New Roman", serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.txt2{
+    color: #ffffff;
+    font-family: "Times New Roman", serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.txt3{
+    color: #ffffff;
+    font-family: "Times New Roman", serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+
+
+
+

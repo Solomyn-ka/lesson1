@@ -41,7 +41,7 @@ body{
     width: 170px;
     height: 35px;
     margin: 30px;
-    border-style: groove;
+    border-style: solid;
     border-color: black;
 }
 .more{
