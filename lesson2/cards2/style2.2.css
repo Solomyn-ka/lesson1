@@ -4,7 +4,7 @@ body{
 
 .services{
     height: 500px ;
-    background: #eee6be;
+    background: #ffffff;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,6 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-style: outset;
 
 
 }
@@ -60,17 +61,30 @@ body{
 
  }
   .fire {
-      height: 400px;
-      background: #f3ecc7;
+      margin-bottom: 70px;
+      height: 300px;
+      background: #ffffff;
       display: flex;
       flex-direction: row;
       align-items: center;
 
       flex-wrap: wrap;
-      
+
 
   }
 
+.texst{
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    color: #2c2c2c;
+    font-family: "Times New Roman", serif;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+
+}
 
 
