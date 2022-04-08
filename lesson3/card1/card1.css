@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+.dds{
+    height: 500px;
+    width: 100%;
+    background: #de9b9b;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.big{
+    height: 450px;
+    width: 500px;
+    background: #ffffff;
+    
+}
+.dod{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.small{
+    height: 250px;
+    width: 500px;
+    background: #343c4b;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.top{
+    height: 100px;
+    width: 500px;
+}
+.as{
+    top: calc(250px - 40px);
+    left: calc(250px - 40px);
+    height: 80px;
+    width: 80px;
+    background: #0f3286;
+    border-radius: 10px;
+    position: absolute;
+
+}
+.as1{
+    top: calc(250px - 40px);
+    left: calc(250px - 130px);
+    height: 80px;
+    width: 80px;
+    background: #0f3286;
+    border-radius: 10px;
+    position: absolute;
+}
+.as2 {
+    top: calc(250px - 40px);
+    left: 300px;
+    height: 80px;
+    width: 80px;
+    background: #0f3286;
+    border-radius: 10px;
+    position: absolute;
+}
+.kode{
+    margin-left: 40px;
+    height: 30px;
+    width: 90px;
+    background: #343c4b;
+    border-radius: 5px;
+
+}
+.fa-magnifying-glass{
+    color: #0f3286;
+    font-size: 20px;
+    position: absolute;
+    margin: 80%;
+}
+.fa-grip-lines{
+    color: #0f3286;
+    font-size: 20px;
+    position: absolute;
+    margin: 90%;
+}
