@@ -1,0 +1,29 @@
+@media screen and (min-width: 0) and (max-width: 1000px){
+    .box_bcde{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .box_a{
+        height: 100px;
+    }
+    .bcde{
+        width: 100%;
+        height: 300px;
+
+    }
+    .b{
+        width: 100%;
+        height: 400px;
+    }
+    .f{
+        width: 100%;
+        height: 100px;
+
+    }
+    .c, .d, .e{
+        height: 70px;
+        width: 70px;
+        background: #d28c8c;
+    }
+}

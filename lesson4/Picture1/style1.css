@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.box{
+    height: 600px;
+    width: 100%;
+    background: #e5afaf;
+    display: flex;
+    flex-direction: column;
+}
+.box_a{
+    height: 25%;
+    width: 100%;
+    background: #e69cf5;
+}
+.box_bc{
+    height: 75%;
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.b{
+    height: 100%;
+    width: 75%;
+    background: #f5acac;
+}
+.c{
+    height: 100%;
+    width: 25%;
+    background: #9eb4ec;
+}
