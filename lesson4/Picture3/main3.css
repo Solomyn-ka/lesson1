@@ -1,30 +1,38 @@
 @media screen and (min-width: 0) and (max-width: 1000px){
-    .box_bcde{
+    .box{
+        height: 700px;
+    }
+    .box_bcdefgh{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+
     }
     .box_a{
-        height: 100px;
+        height: 125px;
     }
     .bcde{
         width: 100%;
         height: 300px;
 
     }
-    .b{
+
+    .h{
         width: 100%;
-        height: 400px;
-    }
-    .f{
-        width: 100%;
-        height: 100px;
+        height: 200px;
         margin-left: 0;
 
     }
-    .c, .d, .e{
-        height: 70px;
-        width: 70px;
+    .b, .c, .d
+
+    {
+        height: 100px;
+        width: 100px;
         background: #d28c8c;
+    }
+    .e, .f, .g {
+        height: 100px;
+        width: 100px;
+        background: #b88bdc;
     }
 }
