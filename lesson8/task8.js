@@ -11,10 +11,10 @@
 // console.log(circle(8));
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
-// function circle(r,h) {
+// function cylinder(r,h) {
 //     return 3.14 * h * r * 2;
 // }
-// console.log(circle(4,4));
+// console.log(cylinder(4,4));
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
 // let arr = [4,5,6];
@@ -89,7 +89,7 @@
 // - створити функцію яка повертає найменьше число з масиву
 // let arr = [1,2,6,9,-3]
 // function minNume(array) {
-//     let min = array[0];
+//     let min = arr[0];
 //     for (const item of array) {
 //         if (item < min) {
 //             min = item
