@@ -186,3 +186,4 @@
 //
 // let newsindy = arrCinderella.find(value => value.footSize === newPrince.findSize);
 // console.log(newsindy);
+//
