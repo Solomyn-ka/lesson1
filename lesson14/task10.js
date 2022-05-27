@@ -57,7 +57,7 @@
 //     const tr = inputElement.value;
 //     const td = inputElement2.value;
 //     const inputText = inputElement3.value;
-//
+//}
 //     function creatorTable(tr,td,text){
 //         const table = document.createElement('table');
 //         document.body.append(table);
