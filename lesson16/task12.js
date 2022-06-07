@@ -29,18 +29,18 @@
 // Всі характеристики повинні мати свої блоки всередені div.comment
 // https://jsonplaceholder.typicode.com/comments
 
-fetch('https://jsonplaceholder.typicode.com/comments')
-    .then(value => value.json())
-    .then(value => {
-        const Div = document.createElement('div');
-        document.body.append(Div);
-        for (const item of value) {
-            const innerDiv = document.createElement('div');
-            Div.append(innerDiv);
-            for (const itemKey of item) {
-                const divElement = document.createElement('div');
-                divElement.innerText = `${itemKey} ${item[itemKey]}`;
-                Div.append(divElement);
-            }
-        }
-    });
+// fetch('https://jsonplaceholder.typicode.com/comments')
+//     .then(value => value.json())
+//     .then(value => {
+//         const Div = document.createElement('div');
+//         document.body.append(Div);
+//         for (const item of value) {
+//             const innerDiv = document.createElement('div');
+//             Div.append(innerDiv);
+//             for (const itemKey of item) {
+//                 const divElement = document.createElement('div');
+//                 divElement.innerText = `${itemKey} ${item[itemKey]}`;
+//                 Div.append(divElement);
+//             }
+//         }
+//     });
